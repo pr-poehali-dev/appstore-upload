@@ -37,7 +37,7 @@ const news = [
 
 const chatMsgs = [
   { id: 1, name: "Ли Вэй — Guangzhou Elite", avatar: "🏭", text: "Готов обсудить условия партии от 500 единиц", time: "10:32", unread: 2 },
-  { id: 2, name: "Поддержка ChinaBridge", avatar: "💬", text: "Ваш запрос #4821 принят в работу", time: "09:15", unread: 0 },
+  { id: 2, name: "Поддержка Chinese Bridge", avatar: "💬", text: "Ваш запрос #4821 принят в работу", time: "09:15", unread: 0 },
   { id: 3, name: "Чэнь Цзяо — TechParts", avatar: "⚡", text: "Отправил каталог с актуальными ценами", time: "Вчера", unread: 1 },
 ];
 
@@ -91,7 +91,7 @@ export default function Index() {
               <span style={{ color: "white", fontFamily: "'Rubik', sans-serif", fontWeight: 800, fontSize: 16 }}>中</span>
             </div>
             <span style={{ fontFamily: "'Rubik', sans-serif", fontWeight: 700, fontSize: 18, color: "var(--text-primary)" }}>
-              China<span style={{ color: "var(--blue)" }}>Bridge</span>
+              Chinese<span style={{ color: "var(--blue)" }}> Bridge</span>
             </span>
           </button>
 
@@ -714,7 +714,7 @@ export default function Index() {
                 <div style={{ width: 30, height: 30, borderRadius: 7, background: "var(--blue)", display: "flex", alignItems: "center", justifyContent: "center" }}>
                   <span style={{ color: "white", fontFamily: "'Rubik', sans-serif", fontWeight: 800, fontSize: 14 }}>中</span>
                 </div>
-                <span style={{ fontFamily: "'Rubik', sans-serif", fontWeight: 700, fontSize: 16 }}>ChinaBridge</span>
+                <span style={{ fontFamily: "'Rubik', sans-serif", fontWeight: 700, fontSize: 16 }}>Chinese Bridge</span>
               </div>
               <p style={{ fontSize: 13, color: "var(--text-secondary)", lineHeight: 1.6 }}>Платформа для импорта из Китая. Поставщики, доставка, обучение.</p>
             </div>
@@ -735,7 +735,7 @@ export default function Index() {
           </div>
           <div className="divider" />
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", paddingTop: 16, fontSize: 12, color: "var(--text-muted)" }}>
-            <span>© 2024 ChinaBridge. Все права защищены.</span>
+            <span>© 2024 Chinese Bridge. Все права защищены.</span>
             <span>+7 800 555-35-35</span>
           </div>
         </div>
